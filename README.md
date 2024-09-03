@@ -28,7 +28,7 @@ Aqui vemos os códigos utilizados para configurar o layout da página HTML no co
 
 ![image](https://github.com/user-attachments/assets/5c970342-e57a-4e91-8522-cda77d31d429)
 
-Aqui temos o primeiro media querie, que detecta quando o dispositivo atinge o tamanho de tela premeditado para exercer a função programada e mudar o posicionamento de alguns elementos. Podemos ver que dessa vez a classe icon tem permissão para exibir seu conteúdo (display:block), enquanto a classe box span é barrada, isso significa que com a classe box span barrada o texto irá sumir e com a classe icon liberada os emojis aparecem no lugar do texto.
+Aqui temos o primeiro media querie, que detecta quando o dispositivo atinge o tamanho de tela premeditado para exercer a função programada e mudar o posicionamento de alguns elementos. Podemos ver que dessa vez a classe icon tem permissão para exibir seu conteúdo (display:block), enquanto a classe box span é barrada, isso significa que com a classe box span barrada o texto irá sumir e com a classe icon liberada os emojis aparecem no lugar do texto. Dessa forma é evidente o motivo das divs span e box estarem separadas, isso porque caso elas fossem apenas uma div não seria possivel fazer essa intercalação entre texto e emoji, assim os textos nao desapareceriam em telas menores.
 
 -- Smartphones
 
