@@ -1,6 +1,6 @@
 # POC-1-Flexbox
 ## Sistemas de Informação, 02J L12
-### Andreas Caycedo Martinez, 10435302
+### Andreas Caycedo Martinez 10435302, Caio Takehiro Magnoli Igari 10437809.
 Nessa semana aprendemos algumas novas funcionalidades de estilização da página HTML, via Flexbox e CSS. Vendo isso, o que eu implementei foi o seguinte:
 
 -Código HTML
