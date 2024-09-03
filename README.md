@@ -1,13 +1,13 @@
 # POC-1-Flexbox
 ## Sistemas de Informação, 02J L12
 ### Andreas Caycedo Martinez 10435302, Caio Takehiro Magnoli Igari 10437809.
-Nessa semana aprendemos algumas novas funcionalidades de estilização da página HTML, via Flexbox e CSS. Vendo isso, o que eu implementei foi o seguinte:
+Nessa semana aprendemos algumas novas funcionalidades de estilização da página HTML, via Flexbox e CSS. Vendo isso, o que implementamos foi o seguinte:
 
 -Código HTML
 
 ![image](https://github.com/user-attachments/assets/15161d4b-60da-4378-99f1-808535296f66)
 
-Nessa imagem vemos o código principal da página. Decidi fazer o código CSS por separado e conectá-lo via link, para deixar tudo mais enxuto. Nele vemos uma div de container na classe body, e dentro dessa div temos outras divs intituladas box ou icon, que irão ter suas funções exercidas conforme certos requisitos de tela que veremos no CSS.
+Nessa imagem vemos o código principal da página. Decidimos fazer o código CSS por separado e conectá-lo via link, para deixar tudo mais enxuto. Nele vemos uma div de container na classe body, e dentro dessa div temos outras divs intituladas box ou icon, que irão ter suas funções exercidas conforme certos requisitos de tela que veremos no CSS.
 
 -Código CSS
 
@@ -15,7 +15,7 @@ Nessa imagem vemos o código principal da página. Decidi fazer o código CSS po
 
 ![image](https://github.com/user-attachments/assets/f11fc496-c2b8-4888-bc3a-05dca88a6eff)
 
-Aqui vemos algumas variáveis que utilizei só para não ter que reescrever as mesmas definições posteriormente
+Aqui vemos algumas variáveis que utilizamos só para não ter que reescrever as mesmas definições posteriormente
 
 -- Computador
 
@@ -28,7 +28,7 @@ Aqui vemos os códigos utilizados para configurar o layout da página HTML no co
 
 ![image](https://github.com/user-attachments/assets/5c970342-e57a-4e91-8522-cda77d31d429)
 
-Aqui temos o primeiro media querie, que detecta quando o dispositivo atinge o tamanho de tela premeditado para exercer a função programada e mudar o posicionamento de alguns elementos. Podemos ver que dessa vez a classe icon tem permissão para exibir seu conteúdo (display:block), enquanto a classe box span é barrada, isso significa que com a classe box span barrada o texto irá sumir e com a classe icon liberada os emojis aparecem no lugar do texto. Dessa forma é evidente o motivo das divs span e box estarem separadas, isso porque caso elas fossem apenas uma div não seria possivel fazer essa intercalação entre texto e emoji, assim os textos não desapareceriam em telas menores.
+Aqui temos o primeiro media querie, que detecta quando o dispositivo atinge o tamanho de tela premeditado para exercer a função programada e mudar o posicionamento de alguns elementos. Podemos ver que dessa vez a classe icon tem permissão para exibir seu conteúdo (display:block), enquanto a classe box span é barrada. Isso significa que com a classe box span barrada o texto irá sumir e com a classe icon liberada os emojis aparecem no lugar do texto. Dessa forma é evidente o motivo das divs span e box estarem separadas, isso porque caso elas fossem apenas uma div não seria possivel fazer essa intercalação entre texto e emoji, assim os textos não desapareceriam em telas menores. Serve para fazer uma distinção
 
 -- Smartphones
 
@@ -58,4 +58,4 @@ Aqui vemos que numa tela diminuída, os campos de texto são substituidos por em
 
 Aqui vemos como ficaria a página numa tela de smartphone, com os ícones um encima do outro
 
-E foi esse o projeto desenvolvido com base no que aprendi de flexbox durante a semana
+E foi esse o projeto desenvolvido com base no que aprendemos de flexbox e media queries durante a semana
